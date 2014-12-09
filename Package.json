@@ -1,0 +1,14 @@
+{
+ "name": "ReportAPI",
+ "version": "0.0.1",
+ "main": "server.js",
+ "author": "Leuzga ...",
+ "description": "rest API para conexcion CouchDB",
+ "keywords": ["couchdb", "database", "couch"],
+ "framework": "none",
+ "dependencies":{
+   "express": "~4.2.0",
+   "body-parser": "~1.0.0",
+   "cradle" : "0.6.7"
+ }
+}
