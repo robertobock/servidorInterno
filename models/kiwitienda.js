@@ -119,7 +119,7 @@ router.route('/kiwitienda/despacharfruta').put(function(req, res){
   			
   			db.remove(body._id,function(err,resss){
 				if(err){
-		    		res.json({'status':'failed','reason':err});
+		    		res.json({'status':'failed','reason':err}); 
 		    	}
 		    	else{
 		    		console.log(resss);
