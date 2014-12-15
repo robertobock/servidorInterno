@@ -107,7 +107,7 @@ router.route('/kiwitienda/venderfruta').put(function(req, res){
 	});
 });
 
-router.route('/kiwitienda/despacharfruta').delete(function(req, res){
+router.route('/kiwitienda/despacharfruta').put(function(req, res){
   	var body = req.body;
   	console.log("el Body._id en despacharfruta es "+body._id);
   	db.get(body._id,function(err,ress){
